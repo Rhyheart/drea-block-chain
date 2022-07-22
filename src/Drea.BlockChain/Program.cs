@@ -118,9 +118,9 @@ var records3 = new List<Record>
     }
 };
 
-Console.WriteLine("产生了 5 笔新交易，符合区块打包规则，用户们开始争夺第二区块添加权...");
+Console.WriteLine("产生了 5 笔新交易，符合区块打包规则，用户们开始争夺第三区块添加权...");
 
-Console.WriteLine("用户 Mark 争夺成功，获得区块添加权，开始添加第二区块...");
+Console.WriteLine("用户 Mark 争夺成功，获得区块添加权，开始添加第三区块...");
 
 blockChainService.AddBlock(records3);
 
